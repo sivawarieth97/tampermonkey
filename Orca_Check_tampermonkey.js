@@ -53,9 +53,10 @@
                 const herdworkflow = 'ORCA Studio';
 
                 const currentUrl = window.location.href;
+	   	console.log(isCriticalWorkflows)
                 if(isCriticalWorkflows){
 
-                     console.log(isCriticalWorkflows)
+                    
                     $.ajax({
                         url: currentUrl,
                         method: "GET",
